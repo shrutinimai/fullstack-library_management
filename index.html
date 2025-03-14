@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <input type="text" id="bookName" placeholder="Enter Book Name" />
+    <button onclick="addBook()">Submit</button>
+
+    <h2>Book Details</h2>
+    <div class="books-container" id="booksList"></div>
+
+    <h2>Returned Books</h2>
+    <div class="books-container" id="returnedBooks"></div>
+</body>
+</html>
